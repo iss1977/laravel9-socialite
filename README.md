@@ -174,7 +174,7 @@ use App\Http\Controllers\Auth\GoogleSocialiteController;
 
 
 Route::get('auth/google', [GoogleSocialiteController::class,  'redirectToGoogle']);
-Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback
+Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback]);
 ```
 
 8. Make a controller to handle the requests
